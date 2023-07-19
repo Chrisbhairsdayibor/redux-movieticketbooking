@@ -23,7 +23,7 @@ const {data, isLoading, error}=useGetMoviesQuery()
             <p>{item.stars}</p>
             <img src={item.image}alt='' />
             
-            <Link to={'/${item.id}'}>
+            <Link to={`/${item.id}`}>
             <button>Show Details</button>
             </Link>
 
